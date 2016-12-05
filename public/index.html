@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<title>Idea4Fund - GDG Botswana - Devfest 2016</title>
+		<link rel="stylesheet" href="css/bootstrap.css" type='text/css'>
+		<link rel="stylesheet" href="css/font-awesome.css" type='text/css'>
+		<link rel="stylesheet" href="css/style.css" type='text/css'> <!-- Custom Style Sheet -->
+		<script src="js/jquery.js"></script> <!-- version 2.2.2 -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/typed.min.js"></script> <!-- Dynamic Typing Script -->
+		<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script> <!-- Firebase -->
+	</head>
+	
+	
+	
+	
+	<!-- HOME PAGE BODY CONTENT -->
+	<body style="background-image: url('../assets/img/page_background.png');">
+	
+		<div id="body_container_home">
+		
+			<div id="login_container">
+
+				<div class="row">
+					<h2>LOGIN</h2>
+				</div>
+				<br/>
+				<div class="row">
+					<p>USERNAME<p>
+					<input type="text" name="txtEmail" id="txtEmail" required>
+				</div>
+				<div class="row">
+					<p>PASSWORD<p>
+					<input type="password" name="txtPassword" id="txtPassword" required>
+				</div>
+				<br/>
+				<input type="submit" name="btnLogIn" id="btnLogIn" value="LOGIN" />
+				<br />
+				<input type="submit" name="btnSignUp" id="btnSignUp" value="SIGN UP" />
+				<br />
+				
+				<!-- For Error Message Display -->
+				<br/>
+				<div id="errorMsg"></div>
+				<!-- For Confirmation Message Display -->
+				<div id="confirmationMsg"></div>
+			
+			</div>
+			
+		</div>
+	
+	</body>
+	<!-- /HOME PAGE BODY CONTENT -->
+	
+	
+	<!-- FOOTER SECTION -->
+	<div id="footerwrap">
+		<div class="container">
+			<div class="row">
+			
+				<div class="row"><h6>© 2016 University of Botswana</h6></div>
+				<div class="row"><h6>Made (From Scratch) By The F4PP BOYZ &copy; 2016</h6></div>
+				
+			</div> <!-- /row -->
+			
+		</div><!--/container -->
+	</div>
+	<!-- END OF FOOTER SECTION -->
+	
+	
+	
+	
+	<!-- Firebase -->
+	<script src="js/firebase_auth.js"></script>
+	
+</html>

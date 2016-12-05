@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<title>Idea4Fund - GDG Botswana - Devfest 2016</title>
+		<link rel="stylesheet" href="css/bootstrap.css" type='text/css'>
+		<link rel="stylesheet" href="css/font-awesome.css" type='text/css'>
+		<link rel="stylesheet" href="css/style.css" type='text/css'> <!-- Custom Style Sheet -->
+		<script src="js/jquery.js"></script> <!-- version 2.2.2 -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/typed.min.js"></script> <!-- Dynamic Typing Script -->
+		<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script> <!-- Firebase -->
+	</head>
+	
+	<!-- HEADERWRAP CONTENT -->
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 himg">
+					<img src="assets/img/icon.png" class="img-responsive">
+				</div>
+				
+			</div><br/>
+			<div class="row">
+				<h1>IDEA 4 FUND - <span class="intro-text" ></span></h1>
+			</div>
+		</div>
+	</div>
+	<!-- /HEADERWRAP CONTENT -->
+	
+	
+	
+	<!-- HOME PAGE BODY CONTENT -->
+	<div id="body_container_home">
+	
+	
+		<!-- THE MENU -->
+		<div class="col-lg-3 col-md-3 col-sm-3">
+		
+			<div class="menu_container">
+				<div class="row">
+					<p><a href="">HOME</a></p>
+				</div>
+				<div class="row">
+					<p><a href="">TRACKING</a></p>
+				</div>
+				<div class="row">
+					<p><a href="">APPLY</a></p>
+				</div>
+				<div class="row">
+					<p><a href="clauses_info.html">CLAUSES</a></p>
+				</div>
+				<div class="row">
+					<p><a href="">ABOUT US</a></p>
+				</div>
+				<div class="row">
+					<input type="submit" name="btnLogout" id="btnLogout" value="SIGN OUT" />
+					<br />
+				</div>
+			</div>
+			
+		</div>
+	
+	
+		<!-- THE CONTENT -->
+		<div class="col-lg-9 col-md-9 col-sm-9">
+		
+			<div class="content_container" id="content_clauses">
+				
+				<div class="row">
+					<div class="col-lg-4">
+						<a href="clauses_info.html">
+						<div class="card_block_tracking">
+							<i class="fa fa-file-text-o fa-5x" aria-hidden="true"></i>
+							<p>TRACK YOUR APPLICATIONS<p>
+						</div>
+						</a>
+					</div>
+					<div class="col-lg-4">
+						<a href="clauses_info.html">
+						<div class="card_block_application">
+							<i class="fa fa-paper-plane-o fa-5x" aria-hidden="true"></i>
+							<p>APPLY FOR FUNDING<p>
+						</div>
+						</a>
+					</div>
+					<div class="col-lg-4">
+						<a href="clauses_info.html">
+						<div class="card_block_clauses">
+							<i class="fa fa-info-circle fa-5x" aria-hidden="true"></i>
+							<p>CLAUSES AND INFO <p>
+						</div>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+
+	
+	
+	</div>
+	<!-- /HOME PAGE BODY CONTENT -->
+	
+	
+	<!-- Firebase -->
+	<script src="js/firebase_auth_logout.js"></script>
+	
+	<!-- THE AWESOME DYNAMIC TYPING TRANSITIONS -->
+	<script type="text/javascript">
+
+	  var headerTypedText =  new Array();
+	  
+		headerTypedText.push("DEVFEST 2016");
+		headerTypedText.push("BIUST PALAPYE");
+		headerTypedText.push("GDG GABORONE");
+		
+		$(".intro-text").typed({
+		  strings: headerTypedText,
+		  typeSpeed: 10,
+		  backDelay: 3000,
+		  startDelay: 200,
+		  loop: true,
+		  loopCount: false,
+		  cursorChar: "|"
+		});
+	</script>
+	<!-- /THE AWESOME DYNAMIC TYPING TRANSITIONS -->
+</html>

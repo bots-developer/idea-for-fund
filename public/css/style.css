@@ -1,0 +1,288 @@
+html, body {
+	margin:0;
+	padding:0;
+	height:100%;
+	background: url('../assets/img/page_background.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center center;
+}
+
+#body_container {
+	min-height:100%;
+	position:relative;
+	padding:30px;
+}
+
+.section {
+	position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+    min-height: 350px;
+    padding-bottom: 60px;
+    text-align: center;
+	
+}
+
+.content {
+	background: rgba(255, 255, 255, 0.75);
+	border-radius: 3px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+
+}
+
+
+/*************************************************************************************************
+* lOGIN PAGE STYLES
+*************************************************************************************************/
+#login_container {
+	padding:40px;
+	margin-top:15%;
+	overflow: hidden;
+	text-align:center;
+	
+	background: rgba(255, 255, 255, 0.75);
+	border-radius: 3px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+	
+	width: 500px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -250px; /* width divided by 2 */
+	
+}
+#login_container a:hover {
+	color: orange;
+}
+#login_container #btnSignUp {
+	background-color:red;
+}
+#errorMsg {
+	color: #dd4c3f;
+}
+#confirmationMsg {
+	color: #149f5b;
+}
+
+
+
+/*************************************************************************************************
+* HOME PAGE STYLES
+*************************************************************************************************/
+#body_container_home {
+	background-color:#fff;
+}
+
+#body_container_home .row {
+	padding:25px;
+}
+
+.content_container {
+	background-color: #fff;
+}
+
+.menu_container {
+	float:left;
+	/* width: 25%; */
+	text-align:center;
+	min-width:100%;
+	min-height:800px;
+    padding: 15px;
+	margin-left:-15px;
+	background:#384452;
+	color:white;
+	box-sizing: border-box;
+}
+
+.menu_container a {
+	color:white;
+	text-decoration:none;
+}
+
+#btnSignOut {
+	display: inline-block;
+	height: 38px;
+	width:130px;
+	color: white;
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	background-color: #de5044;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	box-sizing: border-box;
+}
+
+.card_block_tracking {
+	text-align:center;
+	background: #de5044;
+	padding-top:50px;
+	height: 200px;
+	border-radius: 3px;
+	margin-top:20px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+.card_block_application {
+	text-align:center;
+	background: #4888f4;
+	padding-top:50px;
+	height: 200px;
+	border-radius: 3px;
+	margin-top:20px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+.card_block_clauses {
+	text-align:center;
+	background: #149f5b;
+	padding-top:50px;
+	height: 200px;
+	border-radius: 3px;
+	margin-top:20px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.card_block_tracking:hover,.card_block_application:hover,.card_block_clauses:hover{
+	background:yellow;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+a{
+	color:#000000;
+}
+
+
+/*************************************************************************************************
+* CLAUSES PAGE STYLES
+*************************************************************************************************/
+#body_container_clauses {
+	background: rgba(255, 255, 255, 0.75);
+	border-radius: 3px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+#body_container_clauses .row {
+	padding:25px;
+}
+
+
+
+
+/*************************************************************************************************
+* The Extras
+*************************************************************************************************/
+
+/* Horizontal Lines */
+.hline {
+	border-bottom: 2px solid #384452;
+}
+
+.hline-w {
+	border-bottom: 2px solid #ffffff;
+	margin-bottom: 25px;
+}
+
+/* Header */
+#headerwrap {
+	background-color: #384452;
+	color:white;
+	/* background-image: url('../assets/img/bgheaderwrap.jpg'); */
+	background-repeat: repeat-x;
+	background-position:center;
+	min-height: 300px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+#headerwrap .img-responsive {
+	margin: 0 auto;
+}
+
+/* Footer */
+#footerwrap {
+	width:100%;
+	bottom:0;
+	left:0;
+	background: #384452;
+	text-align:center;
+}
+
+#footerwrap p {
+	color: #bfc9d3;
+}
+
+#footerwrap h4,h6 {
+	color: #ffffff;
+}
+
+#footerwrap h6 {
+	margin-top:40px;
+}
+
+#footerwrap a:hover {
+	color: orange;
+}
+
+.popover {
+    background: #384452;
+	color: #ffffff;
+}
+
+
+/* Forms */
+input[type="number"] {
+	height: 38px;
+	width:80%;
+	padding: 5px;
+	background-color: #fff;
+	border: 1px solid #dd4e42;
+	border-radius: 5px;
+	box-shadow: 5px 2px 5px #888888;
+	box-sizing: border-box;
+}
+
+input[type="text"], input[type="tel"],
+input[type="mail"], input[type="file"],
+input[type="password"],
+textarea, select {
+	height: 38px;
+	width:80%;
+	padding: 5px;
+	background-color: #fff;
+	border: 1px solid #dd4e42;
+	border-radius: 5px;
+	box-shadow: 5px 2px 5px #888888;
+	box-sizing: border-box;
+	text-align:center;
+}
+
+/* Buttons */
+.button,
+button,
+input[type="submit"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  width:100px;
+  padding: 0 30px;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  background-color: #3366ff;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus, button:focus,
+input[type="submit"]:focus, input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: white;
+  border-color: #888;
+  background:green;
+  outline: 0;
+}
